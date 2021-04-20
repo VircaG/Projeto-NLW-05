@@ -17,7 +17,7 @@ app.get("/", (request, response) => {
     })
 });
 
-app.post("/user", (request, response) => {
+app.post("/", (request, response) => {
     return response.json({ message: "Utilizador Salvo com sucesso!" });
 
 });
